@@ -1,0 +1,53 @@
+body {
+    background: linear-gradient(to right, #000000
+    , #434343);
+  }
+  
+.container{
+    border: black solid 2px;
+    background : linear-gradient(to bottom, #833ab4, #fd1d1d, #fcb045);
+    max-width: 640px;
+    margin: 50px auto;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.watch{
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    font-size: 3em;
+    font-weight: 400;
+    height: 50px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+
+h2.paused {
+    color: yellow;
+  }
+
+.buttons{
+    display: flex;
+    justify-content: center ;
+    margin-top: 10px;
+    height: 30px;
+}
+
+#start{
+    width: 50px;
+    margin-right: 10px;
+}
+
+#pause{
+    width: 50px;
+    margin-right: 10px;
+}
+
+#reset{
+    width: 50px;
+}
+
